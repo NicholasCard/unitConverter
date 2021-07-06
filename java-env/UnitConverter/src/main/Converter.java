@@ -85,10 +85,17 @@ public class Converter {
 			        break;
 					
 				case 4:
-					System.out.println("Hi im the quit one!");
+					System.out.println("Thank you for trying the Unit Converter!");
+					input.close();
+					System.exit(0);
+					
 					break;
 			
 			}
+				
+				
 		}
+		
+		
 	}
 }
